@@ -1,4 +1,4 @@
-import Dexie from "https://cdn.skypack.dev/dexie";
+import Dexie from "dexie";
 
 
 // Class-based approach to ensure type definitions persist in compiled output

@@ -1,7 +1,7 @@
 /// <reference path="../typescript_definitions/oxView.d.ts" />
 /// <reference path="../typescript_definitions/index.d.ts" />
 
-import { deflate, inflate } from "https://cdn.skypack.dev/pako";
+import { deflate, inflate } from "pako";
 
 function createCompressedOxViewFile(
   space?: string | number,
